@@ -10,7 +10,7 @@ public class ConversorUnidadesTest {
         // Caso 1: 0 km deve ser 0 milhas
         assertEquals(0.0, conversor.quilometrosParaMilhas(0), 0.001);
         // Caso 2: 10 km deve ser aproximadamente 6.2137 milhas
-        assertEquals(600.21371, conversor.quilometrosParaMilhas(10), 0.001);
+        assertEquals(6.21371, conversor.quilometrosParaMilhas(10), 0.001);
     }
 
     @Test
